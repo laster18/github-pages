@@ -1,0 +1,19 @@
+.body {
+  margin: 0 0;
+  padding: 0 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  overflow-x: hidden;
+  overflow-y: hidden!important;
+}
+.main {
+  height: 120vh;
+  width: 120vw;
+  background: black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.body::-webkit-scrollbar {
+  display: none;
+}
